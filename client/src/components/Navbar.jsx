@@ -13,6 +13,11 @@ export default function Navbar() {
         </div>
         <p className="text-sm text-[#3b1502]/50 hidden sm:block">Updated every 24h</p>
       </div>
+      <div className="max-w-2xl mx-auto px-4 pb-4">
+        <p className="text-sm tracking-widest uppercase text-[#3b1502]/40 font-medium" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
+          get worldwide tech news at one place
+        </p>
+      </div>
     </header>
   );
 }
