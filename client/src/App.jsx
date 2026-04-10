@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import FilterBar from './components/FilterBar';
 import NewsCard from './components/NewsCard';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000/api';
 
 export default function App() {
   const [articles, setArticles] = useState([]);
